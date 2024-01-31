@@ -1,0 +1,180 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+body, html {
+    height: 100%;
+  }
+
+nav{
+
+    height: 103px;
+    /* background-color: #f4f4f4; */
+    background-image: url(https://assets.limetray.com/assets/image_manager/uploads/5999/about-bg02.jpg);
+    background-position-Y: 481px;
+
+
+
+}
+
+.navbar a img{
+
+    
+    margin: auto;
+    position: relative;
+    WIDTH: 157px;
+    height: auto;
+    left: 38px;
+    bottom: 22px;
+    
+
+}
+.navbar ul{
+
+    float: right;
+    margin-right: 25px;
+}
+
+.navbar ul li{
+
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 42px 0px;
+}
+
+.items a{
+position: relative;
+color: black;
+font-size: 18px;
+
+}
+
+.bktble a{
+    position: relative;
+color: white;
+font-size: 18px;
+}
+
+.items a:hover{
+  color: #00ADB5;
+  border-bottom: 2px solid #fea621;
+
+}
+
+
+.bktble a{
+    padding: 10px 18px !important;
+    background: #fea621 !important;
+    font-size: 20px !important;
+    position: relative;
+    font-family: font3 !important;
+    color: #fff !important;
+    letter-spacing: 1px !important;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.bktble a:hover{
+    background: #00ADB5 !important;
+}
+
+.maincont{
+
+    background-image: url(https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg);
+    width: 100%;
+      height: 600px;
+      background-size: cover;
+      /* background-repeat: no-repeat;
+      background-position: center center;
+      margin: 0;
+      padding: 0; */
+      /* object-fit: contain; */
+   }
+
+
+
+.section {
+    background: #00ADB5;
+    color: #fff;
+    background-image: url(https://www.transparenttextures.com/patterns/always-grey.png);
+    background-size: 14px;
+
+}
+
+.about-sec {
+    padding: 80px 0px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url(https://assets.limetray.com/assets/image_manager/uploads/5999/about-bg02.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container{
+    padding: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+.button {
+    padding: 9px 28px;
+    background: #fea621 !important;
+    font-size: 20px !important;
+    position: relative;
+    font-family: font3 !important;
+    color: #fff !important;
+    letter-spacing: 2px !important;
+    border-radius: 50px;
+
+}
+
+.content-aboutus h3{
+
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #00ADB5;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+
+.dish-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+.sub-dish-cont {
+    width: 31.3333%;
+    margin-bottom: 20px;
+  }
+
+.sub-dish-cont img {
+    width: 100%;
+    height: 70%;
+  }
+
+
+.heading{
+    margin-top: 10px;
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+}  
+
+.sub-heading{
+
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
